@@ -1,0 +1,156 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+*/
+
+
+/*Global Styles
+----------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before,*:after {
+    box-sizing: inherit;
+}
+
+a{
+    color:honeydew;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+body{
+  font-family: 'DotGothic16', sans-serif;
+  margin:0px; 
+}
+
+.btn {
+    text-decoration: none;
+    background-color: darkturquoise;
+    color: rgb(122, 3, 83);
+    padding: 10px;
+    display: inline-block;
+}
+
+.column-narrow{
+   width:35%;
+   float:left;
+   /*min-height: 150px;*/
+   padding-right: 10px ; 
+}
+
+.column-wide{
+    width:65%;
+    float:left;
+    /*min-height: 150px;*/
+    margin-top: 5px;;
+}
+
+.contact-info a {
+    margin: 5px;
+    padding: 20px;
+    display:inline-block;
+}
+
+.content-wrap{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 25px;
+    overflow: auto;
+}
+
+.profile-img{
+    border-radius: 45%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*Header and Footer styles
+----------------------------------------------*/
+header, footer{
+    background: rgb(117, 7, 117);
+    color:rgb(43, 56, 56);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    padding-top: 20px;
+    position: relative;
+}
+
+header h1, header h2{
+    color:gainsboro;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Syne Mono', monospace;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 45px;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 0px;
+}
+
+h3{
+    font-size: 25px;
+    margin:0;
+}
+
+/*Navigation
+----------------------------------------------*/
+nav {
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+/*Work Experience
+----------------------------------------------*/
+.linkSection{
+    background:darkturquoise;
+    color:deeppink;
+    padding-top:40px ;
+}
+
+
+h3 ~ p {
+    margin:0;
+}
+/*Image Demo
+----------------------------------------------*/
+.imageDemo{
+    background: linear-gradient(rgba(245,245,245, 0.8), rgba(245,245,245, 0.5)), url(assets/img/mpmm.png);
+    background-size:contain ;
+    color:black;  
+    padding-top: 40px;
+}
+
+.imageDemo p:nth-child(4){
+    margin-bottom: 55px;
+}
